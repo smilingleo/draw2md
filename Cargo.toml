@@ -1,0 +1,11 @@
+[package]
+name = "drawio-parser"
+version = "0.1.0"
+authors = ["Leo Liu <wei.liu@zuora.com>"]
+
+[dependencies]
+xmlJSON = "0.2.0"
+rustc-serialize = "*"
+data-encoding = "*"
+inflate = "*"
+percent-encoding = "1.0.1"
