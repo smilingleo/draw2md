@@ -1,5 +1,5 @@
 [package]
-name = "drawio-parser"
+name = "draw2md"
 version = "0.1.0"
 authors = ["Leo Liu <wei.liu@zuora.com>"]
 
@@ -9,3 +9,4 @@ rustc-serialize = "*"
 data-encoding = "*"
 inflate = "*"
 percent-encoding = "1.0.1"
+clap = {version = "~2.27.0", features = ["yaml"]}
